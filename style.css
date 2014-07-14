@@ -12,6 +12,7 @@ License URI: http://creativecommons.org/licenses/by-sa/3.0/
 
 @import url('bootstrap/css/bootstrap.css');
 @import url('bootstrap/css/bootstrap-responsive.css');
+@import url('bootstrap/css/bootstrap-overrides.css');
 
 body {
 	padding-top: 60px;

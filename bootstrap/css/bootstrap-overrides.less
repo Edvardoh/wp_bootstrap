@@ -1,0 +1,73 @@
+/*CUSTOM STYLES*/
+
+/*Region Vars*/
+@Amethyst: #9B59B6;
+@BrightBlue: #3498DB;
+@Emerald: #2ECC71;
+@Turquoise: #1ABC9C;
+@SoftRed: #E74C3C;
+@Carrot: #E67E22;
+@Sunflower: #F1C40F;
+@Clouds: #ECF0F1;
+/*Endregion Vars*/
+/*Region Mixins*/
+
+/*Endregion Mixins*/
+
+.row.trifold-container {
+  height: 300px;
+  :first-child {
+    margin-left:20px !important;
+  }
+  .trifold-element {
+    width: 312px;
+    height: inherit;
+    margin-left: 2px;
+    background-color: @BrightBlue;
+  }
+}
+
+.main-container {
+  .span2 {
+    .row {
+      .span2 {
+        background-color: @Amethyst;
+        margin-top: 15px;
+      }
+      .widget-facebook {
+        height: 500px;
+      }
+      .widget-ad-120 {
+        height: 120px;
+      }
+    }
+  }
+  .featured-content-container {
+    .row {
+      .span7 {
+        background-color: @Turquoise;
+        margin-top: 15px;
+      }
+      .featured-content-header {
+
+      }
+      .featured-content-image {
+
+      }
+      .featured-content-text {
+
+      }
+      .featured-content-actions {
+
+      }
+    }
+  }
+  .span3 {
+    .row {
+      .span3 {
+        background-color: @Emerald;
+        margin-top: 15px;
+      }
+    }
+  }
+}
